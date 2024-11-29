@@ -29,5 +29,5 @@ print(sadecebiri)
 tumu = sorted(set(resim) | set(tiyatro) | set(muzik))
 print(tumu)
 
-hicbir = sorted(tumu - (set(resim) & set(tiyatro) & set(muzik)))
+hicbir = sorted(set(ogrenciler) - set(tumu))
 print(hicbir)
