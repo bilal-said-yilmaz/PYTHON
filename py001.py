@@ -1,6 +1,6 @@
 x=10 # <class 'int'>
 y=3.0 # <class 'float'>
-z="bilal"# <class 'str'>
+z="Hello Python"# <class 'str'>
 b=False # <class 'bool'>
 c=10/7 # 1.43
 d=10//7 # 1
