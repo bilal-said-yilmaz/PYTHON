@@ -8,7 +8,7 @@ print(liste2)
 liste3=liste1[::] # Tüm listeyi gezer ve yeni listemize atar 
 print(liste3)
 
-liste3=liste1[3:13:2] # 3 dahil 13 dahil değil 3'ten başlayarak 2'şer adım atlayarak yeni listeye atama yapar
+liste3=liste1[:13:2] # 0 dahil 13 dahil değil 0'dan başlayarak 2'şer adım atlayarak yeni listeye atama yapar
 print(liste3)
 
 liste3=liste1[13:3:-1] # 13 dahil 3 dahil değil 13'ten geriye doğru 1'er adım yeni listemize atama yapar
