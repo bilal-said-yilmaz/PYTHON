@@ -17,8 +17,8 @@ class BankaHesabi:
 
 bankahesabi1=BankaHesabi("Elon Musk","$",439400000000)
 
-BankaHesabi.bakiyeGoruntule(bankahesabi1)
-BankaHesabi.paraYatir(bankahesabi1,100000)
+bankahesabi1.bakiyeGoruntule()
+bankahesabi1.paraYatir(100000)
 
-BankaHesabi.paraCek(bankahesabi1,2000000)
-BankaHesabi.bakiyeGoruntule(bankahesabi1)
+bankahesabi1.paraCek(2000000)
+bankahesabi1.bakiyeGoruntule()
